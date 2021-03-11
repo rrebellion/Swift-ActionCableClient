@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.requires_arc = true
 
-  s.source_files = 'Source/Classes/**/*'
+  s.source_files = 'Sources/Swift-ActionCableClient/Source/Classes/**/*'
   s.frameworks = 'Foundation'
   s.dependency 'Starscream', '~> 3.0.3'
 end
